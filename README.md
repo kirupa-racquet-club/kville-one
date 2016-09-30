@@ -32,7 +32,7 @@ Each type of message may have properties in addition to `type` associated with i
 
 ### "ping"
 
-A simple, nondescript message to request a response from the plot.
+A simple, nondescript message to request a response from the plot.  Currently this will be sent when the plot is clicked on but does not specifically represent a click event.
 
 parameter | type | attributes
 ---|---|---
