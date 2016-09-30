@@ -4,11 +4,7 @@ Current gen version of Kirupaville - a collection of user generated content brou
 
 * **Kirupaville One Online: https://kirupa-racquet-club.github.io/kville-one/**
 
-In the past, Kirupaville was a pixel city.
-
-* **Legacy Kirupaville (circa 2002):** https://www.kirupa.com/lab/kville/main.htm
-
-More information about development and future direction of Kirupaville One will be available in the [forums](http://forum.kirupa.com/t/lets-do-something-fun-committed-kville-one/).
+In the past, Kirupaville was a [pixel city](https://www.kirupa.com/lab/kville/main.htm). More information about development and future direction of Kirupaville One will be available in the [forums](http://forum.kirupa.com/t/lets-do-something-fun-committed-kville-one/).
 
 ## Getting Involved
 
