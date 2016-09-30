@@ -8,7 +8,7 @@ In the past, Kirupaville was a pixel city.
 
 * **Legacy Kirupaville (circa 2002):** https://www.kirupa.com/lab/kville/main.htm
 
-More information about development and future direction will be available in the [discussion page](http://forum.kirupa.com/t/lets-do-something-fun-committed-kville-one/).
+More information about development and future direction of Kirupaville One will be available in the [forums](http://forum.kirupa.com/t/lets-do-something-fun-committed-kville-one/).
 
 ## Getting Involved
 
