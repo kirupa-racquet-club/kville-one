@@ -1,6 +1,6 @@
 # Kirupaville One
 
-Current gen version of Kirupaville.
+Current gen version of Kirupaville - a collection of user generated content brought together in a cohesive community.
 
 * **Kirupaville One Online: https://kirupa-racquet-club.github.io/kville-one/**
 
@@ -12,7 +12,9 @@ More information about development and future direction of Kirupaville One will 
 
 ## Getting Involved
 
-Simply fork this repo under your own github account and edit `/src/plot/index.worker.js`.  This JavaScript file (run as a [web worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)) represents the interface to your plot in Kirupaville. It will be passed messages through the `onmessage` handler function which can be responded to by calling the `postMessage` function.  Simply by creating a fork, your plot will automatically be recognized and get displayed in the main [community page](https://kirupa-racquet-club.github.io/kville-one/)!
+Kirupaville is a collection of plots. Each user in the Kirupaville community gets his/her own plot to cultivate. To get your own plot simply fork this repo under your own github account. That's it! Simply by creating a fork, your plot will automatically be recognized and get displayed in the main [community page](https://kirupa-racquet-club.github.io/kville-one/)!
+
+Once you've created a fork, you can customize your plot by editing the `/src/plot/index.worker.js` file.  This JavaScript file (run as a [web worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)) represents the interface to your plot in Kirupaville. It will be passed messages through the `onmessage` handler function which can be responded to by calling the `postMessage` function.  
 
 Right now the interface for message posting is under development, but expect more to come soon!
 
