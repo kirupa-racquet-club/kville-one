@@ -8,11 +8,13 @@ In the past, Kirupaville was a [pixel city](https://www.kirupa.com/lab/kville/ma
 
 ## Getting Involved
 
-Kirupaville is a collection of plots. Each user in the Kirupaville community gets his/her own plot to cultivate. To get your own plot simply fork this repo under your own github account. That's it! Simply by creating a fork, your plot will automatically be recognized and get displayed in the main [community page](https://kirupa-racquet-club.github.io/kville-one/)!
+Kirupaville is a collection of plots. Each user in the Kirupaville community gets his/her own plot to cultivate. To get your own plot simply fork this repo under your own github account. That's it! Simply by creating a fork, your plot will automatically be recognized and get displayed in the main [community page](https://kirupa-racquet-club.github.io/kville-one/)!&dagger;
 
 Once you've created a fork, you can customize your plot by editing the `/src/plot/index.worker.js` file.  This JavaScript file (run as a [web worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)) represents the interface to your plot in Kirupaville. It will be passed messages through the `onmessage` handler function which can be responded to by calling the `postMessage` function.  
 
 Right now the interface for message posting is under development, but expect more to come soon!
+
+&dagger; *Note: depending on github's policy for github pages generation, you may need to make an edit to your forked repo before it appears in the community as the community pulls from the hosted gh pages location (`<username>.github.io/<reponame>`).*
 
 ## Plot Workers Messaging API
 
