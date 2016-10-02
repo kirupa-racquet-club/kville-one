@@ -104,7 +104,7 @@ function addWorkerView (user, repo) {
   var plotEl = document.createElement('div');
   plotEl.id = plotId;
   plotEl.className = PLOT_CLASSNAME;
-  plotEl.textContent = 'Click Me';
+  plotEl.textContent = 'Click Me (' + user + ')';
   
   plotEl.addEventListener('click', function (event) {
     var workerInfo = workers[plotId];
